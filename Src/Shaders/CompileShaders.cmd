@@ -1,5 +1,5 @@
 @echo off
-rem Copyright (c) Microsoft Corporation. All rights reserved.
+rem Copyright (c) Microsoft Corporation.
 rem Licensed under the MIT License.
 
 setlocal
@@ -11,7 +11,7 @@ if %1.==xbox. goto continuexbox
 if %1.==dxil. goto continuedxil
 if %1.==gxdk. goto continuegxdk
 if %1.==. goto continuepc
-echo usage: CompileShaders [xbox]
+echo usage: CompileShaders [xbox | dxil | gxdk]
 exit /b
 
 :continuexbox

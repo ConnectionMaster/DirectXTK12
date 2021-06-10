@@ -1,7 +1,7 @@
 //--------------------------------------------------------------------------------------
 // File: DescriptorHeap.cpp
 //
-// Copyright (c) Microsoft Corporation. All rights reserved.
+// Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 //
 // http://go.microsoft.com/fwlink/?LinkID=615561
@@ -25,10 +25,10 @@ namespace
 
     static const DescriptorHeapDesc c_DescriptorHeapDescs[D3D12_DESCRIPTOR_HEAP_TYPE_NUM_TYPES] =
     {
-        { D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV,	D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE },
-        { D3D12_DESCRIPTOR_HEAP_TYPE_SAMPLER,		D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE },
-        { D3D12_DESCRIPTOR_HEAP_TYPE_RTV,			D3D12_DESCRIPTOR_HEAP_FLAG_NONE },
-        { D3D12_DESCRIPTOR_HEAP_TYPE_DSV,			D3D12_DESCRIPTOR_HEAP_FLAG_NONE }
+        { D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV,   D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE },
+        { D3D12_DESCRIPTOR_HEAP_TYPE_SAMPLER,       D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE },
+        { D3D12_DESCRIPTOR_HEAP_TYPE_RTV,           D3D12_DESCRIPTOR_HEAP_FLAG_NONE },
+        { D3D12_DESCRIPTOR_HEAP_TYPE_DSV,           D3D12_DESCRIPTOR_HEAP_FLAG_NONE }
     };
 }
 

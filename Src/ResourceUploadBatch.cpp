@@ -1,7 +1,7 @@
 //--------------------------------------------------------------------------------------
 // File: ResourceUploadBatch.cpp
 //
-// Copyright (c) Microsoft Corporation. All rights reserved.
+// Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 //
 // http://go.microsoft.com/fwlink/?LinkID=615561
@@ -994,7 +994,7 @@ private:
         std::vector<ComPtr<ID3D12DeviceChild>>  TrackedObjects;
         std::vector<SharedGraphicsResource>     TrackedMemoryResources;
         ComPtr<ID3D12GraphicsCommandList>       CommandList;
-        ComPtr<ID3D12Fence>  			        Fence;
+        ComPtr<ID3D12Fence>                     Fence;
         HANDLE                                  GpuCompleteEvent;
 
         UploadBatch() noexcept : GpuCompleteEvent(nullptr) {}
